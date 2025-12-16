@@ -12,15 +12,7 @@ import SystemPage from './pages/System';
 
 import SettingsPage from './pages/Settings';
 
-// Placeholder Helpers for other pages to avoid build errors
-const PlaceholderPage = ({ title }: { title: string }) => (
-  <div className="p-4">
-    <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">{title}</h1>
-    <div className="p-8 border border-dashed border-gray-300 rounded-lg dark:border-gray-700 text-center text-gray-500">
-      Page under construction
-    </div>
-  </div>
-);
+
 
 function App() {
   return (

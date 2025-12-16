@@ -1,3 +1,4 @@
+// Trigger rebuild
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { PrivateRoutes } from './routes/PrivateRoutes';
